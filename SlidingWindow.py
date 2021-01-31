@@ -20,6 +20,8 @@ def maxisubarray(arr,k):
         
     return maxi
 
-print(maxisubarray([2,5,1,8,2,9,1],3))
+input_arr=[2,5,1,8,2,9,1]
+k=3 #given window size
+print(maxisubarray(input_arr,k))
 
 
